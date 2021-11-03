@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body class="bg-light py-3 py-lg-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Опрос</h1>
+        <p>Пройдите наш опрос!</p>
+      </div>
+      <ul class="nav nav-tabs nav-justified justify-content-center" role="tablist">
+        <a href="index.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-1-tab" data-bs-toggle="tab" data-bs-target="#step-1" role="tab" aria-controls="step-1" aria-selected="true"><h2 class="text-primary">Step-1</h2><p class="text-primary">Персональные данные</p></button></li></a>
+        <a href="step-2.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-2-tab" data-bs-toggle="tab" data-bs-target="#step-2" role="tab" aria-controls="step-2" aria-selected="false"><h2 class="text-primary">Step-2</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+        <a href="step-3.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0 active" id="step-3-tab" data-bs-toggle="tab" data-bs-target="#step-3" role="tab" aria-controls="step-3" aria-selected="false"><h2 class="text-primary">Step-3</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+      </ul>
+      <div class="tab-content">
+        <div class="tabe-pane fade pt-4 show active" id="step-3-tab" role="tabpanel" aria-labelledby="step-3-tab">
+
+          <div class="row">
+            <div class="col-md-7">
+            <p><b>Вопрос №5: Как Вам наш конкурс ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - плохо, где 5 - очень понравилось. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+            <div class="col-md-5">
+              <form>
+                <label class="radio-inline ps-md-2">
+                  <input type="radio" name="optradio" checked> 1
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 2
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 3
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 4
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 5
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> n/a
+                </label>
+                <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+            <p><b>Вопрос №6: Как Вам наш сервис ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - плохо, где 5 - очень понравилось. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+            <div class="col-md-5">
+              <form>
+                <label class="radio-inline ps-md-2">
+                  <input type="radio" name="optradio" checked> 1
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 2
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 3
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 4
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> 5
+                </label>
+                <label class="radio-inline ms-5 ps-md-3">
+                  <input type="radio" name="optradio"> n/a
+                </label>
+                <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+            <p><b>Вопрос №7: Какова вероятность, что Вы или ваши знакомые порекомендуют нас ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - маловероятно, где 5 - рекомендую. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="btn-group btn-group-lg w-100">
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-1" value="rating-1" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-1">1</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-2" value="rating-2" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-2">2</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-3" value="rating-3" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-3">3</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-4" value="rating-4" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-4">4</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-5" value="rating-5" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-5">5</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-n/a" value="rating-n/a" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-n/a">n/a</label>
+              </div>
+              <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+            <p><b>Вопрос №8: Какое у вас настроение, после нашего опроса ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - Плохое, где 5 - Отличное. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+            <div class="col-md-5">
+              <form>
+                <div class="btn-group btn-group-lg w-100">
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-1-1" value="rating-1" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-1-1">1</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-2-2" value="rating-2" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-2-2">2</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-3-3" value="rating-3" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-3-3">3</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-4-4" value="rating-4" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-4-4">4</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-5-5" value="rating-5" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-5-5">5</label>
+                  <input class="btn-check" type="radio" name="ratingToggleButtonsQuestion7" id="ratingToggleButtonsQuestion7-n/a-1" value="rating-n/a" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="ratingToggleButtonsQuestion7-n/a-1">n/a</label>
+              </div>
+              <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+              <p><b>Вопрос №9: Трудно ли вам было выбирать оценки картинам ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - Сложно, где 5 - Легко. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+              <div class="col-md-5">
+               <input type="range" class="form-range my-3" id="customRange">
+               <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+              </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+              <p><b>Вопрос №10: Хотели бы Вы поучаствовать в конкурсе ? Если вам не все равно, можете поставить свою оценку!</b></p>
+            <p>Где 1 - Нет, где 5 - Да. Также, Вы можете поставить n/a, что значит без оценки. 
+              Также вы можете дать свой комментарий к своей оценки.</p>
+            </div>
+              <div class="col-md-5">
+               <input type="range" class="form-range my-3" id="customRange">
+               <textarea class="form-control mt-md-3 mb-4" rows="5" id="comment" name="text" placeholder="Напишите здесь свой комментарий..."></textarea>
+              </div>
+          </div>
+
+      </div>
+      <a href="submit.html" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary d-block ms-auto" id="go-to-step-2">Submit</button></a>
+    </div>  
+    </div>  
+  </body>
+    </html>

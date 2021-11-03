@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body class="bg-light py-3 py-lg-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Опрос</h1>
+        <p>Проголосуйте за пейзажи!</p>
+      </div>
+      <ul class="nav nav-tabs nav-justified justify-content-center" role="tablist">
+        <a href="index.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-1-tab" data-bs-toggle="tab" data-bs-target="#step-1" role="tab" aria-controls="step-1" aria-selected="true"><h2 class="text-primary">Step-1</h2><p class="text-primary">Персональные данные</p></button></li></a>
+        <a href="step-2.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0 active" id="step-2-tab" data-bs-toggle="tab" data-bs-target="#step-2" role="tab" aria-controls="step-2" aria-selected="false"><h2 class="text-primary">Step-2</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+        <a href="step-3.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-3-tab" data-bs-toggle="tab" data-bs-target="#step-3" role="tab" aria-controls="step-3" aria-selected="false"><h2 class="text-primary">Step-3</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+      </ul>
+      <div class="tab-content">
+        <div class="tabe-pane fade pt-4 show active" id="step-2-tab" role="tabpanel" aria-labelledby="step-2-tab">
+            <div class="row">
+                <p class="text-center"><b>Вопрос №1. Как вы оцениваете данный пейзаж?</b></p>
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <figure>
+                    <img src="img/luca.jpg" alt="...">
+                    <figcaption class="mt-2 mb-5">Горная местность</figcaption>
+                    </figure>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Потрясающий<label class="form-check-label" for="radio1"></label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>Хороший<label class="form-check-label" for="radio2"></label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" checked>Обычный<label class="form-check-label" for="radio3"></label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked>Плохой<label class="form-check-label" for="radio4"></label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked><input type="other" placeholder="Другое..."><label class="form-check-label" for="radio4"></label>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row">
+              <hr>
+            </div>
+
+            <div class="row">
+              <p class="text-center"><b>Вопрос №2. Как вы оцениваете данный пейзаж?</b></p>
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <figure>
+                  <img src="img/dolina.jpg" alt="...">
+                  <figcaption class="mt-2 mb-5">Зеленая Долина</figcaption>
+                  </figure>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Потрясающий<label class="form-check-label" for="radio1"></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>Хороший<label class="form-check-label" for="radio2"></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" checked>Обычный<label class="form-check-label" for="radio3"></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked>Плохой<label class="form-check-label" for="radio4"></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked><input type="other" placeholder="Другое..."><label class="form-check-label" for="radio4"></label>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="row">
+            <hr>
+          </div>
+
+          <div class="row">
+            <p class="text-center"><b>Вопрос №3. Как вы оцениваете данный пейзаж?</b></p>
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <figure>
+                <img src="img/baikal.jpg" alt="...">
+                <figcaption class="mt-2 mb-5">Байкал</figcaption>
+                </figure>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Потрясающий<label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>Хороший<label class="form-check-label" for="radio2"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" checked>Обычный<label class="form-check-label" for="radio3"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked>Плохой<label class="form-check-label" for="radio4"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked><input type="other" placeholder="Другое..."><label class="form-check-label" for="radio4"></label>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <hr>
+        </div>
+
+        <div class="row">
+          <p class="text-center"><b>Вопрос №4. Как вы оцениваете данный пейзаж?</b></p>
+          <div class="d-flex">
+            <div class="flex-shrink-0">
+              <figure>
+              <img src="img/komi.jpg" alt="...">
+              <figcaption class="mt-2 mb-5">Респубика Коми</figcaption>
+              </figure>
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Потрясающий<label class="form-check-label" for="radio1"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>Хороший<label class="form-check-label" for="radio2"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" checked>Обычный<label class="form-check-label" for="radio3"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked>Плохой<label class="form-check-label" for="radio4"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" checked><input type="other" placeholder="Другое..."><label class="form-check-label" for="radio4"></label>
+              </div>
+            </div>
+          </div>
+      </div>
+      <a href="step-3.html" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary d-block ms-auto" id="go-to-step-2">Step 3</button>
+        </div>
+    </div>
+    </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

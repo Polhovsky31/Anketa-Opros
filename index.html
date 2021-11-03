@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body class="bg-light py-3 py-lg-5">
+    <div class="container">
+      <div class="text-center">
+        <h1>Анкета</h1>
+        <p>Заполните анкету</p>
+      </div>
+      <ul class="nav nav-tabs nav-justified justify-content-center" role="tablist">
+        <a href="index.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0 active" id="step-1-tab" data-bs-toggle="tab" data-bs-target="#step-1" role="tab" aria-controls="step-1" aria-selected="false"><h2 class="text-primary">Step-1</h2><p class="text-primary">Персональные данные</p></button></li></a>
+        <a href="step-2.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-2-tab" data-bs-toggle="tab" data-bs-target="#step-2" role="tab" aria-controls="step-2" aria-selected="true"><h2 class="text-primary">Step-2</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+        <a href="step-3.html" style="text-decoration: none;" class="flex-grow-1"><li class="nav-item" role="presentation"><button type="button" class="nav-link w-100 h4 mb-0" id="step-3-tab" data-bs-toggle="tab" data-bs-target="#step-3" role="tab" aria-controls="step-3" aria-selected="false"><h2 class="text-primary">Step-3</h2><p class="text-primary">Ответы на вопросы</p></button></li></a>
+      </ul>
+      <div class="tab-content">
+        <div class="tabe-pane fade pt-4 show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <p>Пол</p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Мужчина</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Женщина</label>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <p>Возраст</p>
+              <input type="age" class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+              <p>Телефон</p>
+              <input type="phone" class="form-control">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <p>Фамилия и Имя</p>
+              <input type="name" class="form-control" placeholder="Имя Фамилия">
+            </div>
+            <div class="col-md-6 mb-3">
+              <p>Email</p>
+              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="username@domain.com">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-9 mb-3">
+              <p>Адресс</p>
+              <input type="adress" class="form-control" placeholder="123 Название улицы">
+            </div>
+            <div class="col-md-3 mb-3">
+              <p>Этаж или апартаменты</p>
+              <input type="floor" class="form-control" placeholder="Этаж 5">
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <p>Город</p>
+              <input type="City" class="form-control" placeholder="Москва">
+            </div>
+            <div class="col-md-2 mb-3">
+              <p>Индекс</p>
+              <input type="zip" class="form-control" placeholder="123">
+            </div>
+            <div class="col-md-4 mb-3">
+              <p>Страна</p>
+              <select class="form-select">
+                <option>Россия</option>
+                <option>Польша</option>
+                <option>Беларусь</option>
+                <option>Грузия</option>
+              </select>
+            </div>
+          </div>
+          <a href="step-2.html" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary d-block ms-auto" id="go-to-step-2">Step 2</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
